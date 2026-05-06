@@ -6,12 +6,17 @@ public class CourseInfo {
 	        String semester = "Spring 2026";
 	        int credits = 3;
 	        String classroom = "COP 204";
+	        String time="MTWR - 1 to 3pm";
+	        int nbStudents  = 24;
 
 	        System.out.println("Course Name: " + courseName);
 	        System.out.println("Instructor: " + instructor);
 	        System.out.println("Semester: " + semester);
 	        System.out.println("Credits: " + credits);
 	        System.out.println("Classroom: " + classroom);
+	        
+	        System.out.println("Time: " + time);
+	        System.out.println("Number of students: " + nbStudents);
 	    }
 
 }
